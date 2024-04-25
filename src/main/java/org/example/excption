@@ -1,0 +1,13 @@
+Exception Hierarchy in Java:
+In the java exception class hierarchy, the class at the top is the Throwable class, which is a
+direct subclass of the Object class. Throwable has two direct subclasses Exception and Error,
+which has again respective sub-classes The diagram below shows the standard exception and error
+classes defined in Java, organized in the Java exceptions hierarchy:
+
+link : https://interviewnoodle.com/exception-in-java-89a0b41e0c45
+
+Error: Error caused by the lack of system resources such as heap memory is not
+available etc. Errors are non-recoverable. During the runtime of a program if
+any error occurs we will not be able to handle it.
+
+Types of Exception in Java:
