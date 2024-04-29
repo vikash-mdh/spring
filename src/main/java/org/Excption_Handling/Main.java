@@ -1,6 +1,6 @@
 package org.Excption_Handling;
 
-
+import java.util.*;
 import java.util.Scanner;
 
 public class Main {
@@ -29,7 +29,7 @@ public class Main {
         }catch(Exception e){
             System.out.println("Caugth the general excption");
         }
-        System.out.println("This is an important statement and should be printed");
+        //System.out.println("This is an important statement and should be printed");
 
     }
 }
